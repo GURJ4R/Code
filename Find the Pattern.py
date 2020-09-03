@@ -1,0 +1,5 @@
+n=int(input())
+array=list(map(int,input().split()))
+x=min(array)
+y=max(array)
+print(x+y)
